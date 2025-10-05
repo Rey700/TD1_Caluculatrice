@@ -1,20 +1,3 @@
 <resources>
-    <string name="app_name">TD1_Prog_Mobile</string>
-    <string name="_B1">1</string>
-    <string name="_B2">2</string>
-    <string name="_B3">3</string>
-    <string name="_B4">4</string>
-    <string name="_B5">5</string>
-    <string name="_B6">6</string>
-    <string name="_B7">7</string>
-    <string name="_B8">8</string>
-    <string name="_B9">9</string>
-    <string name="_B0">0</string>
-    <string name="_Begal">=</string>
-    <string name="_Bvirg">,</string>
-    <string name="_Bmult">*</string>
-    <string name="_Bmoins">-</string>
-    <string name="_Bplus">+</string>
-    <string name="_Bdiv">/</string>
-    <string name="_Bclear">CLEAR</string>
+    <string name="app_name">Calculatrice</string>
 </resources>

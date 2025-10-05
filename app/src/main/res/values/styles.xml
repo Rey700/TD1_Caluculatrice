@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#DDDDDD</item>
+    </style>
+
+    <style name="CalcButtonOp">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#FFA726</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalcButtonClear">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#E53935</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
