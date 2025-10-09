@@ -8,8 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <!-- Zone d'affichage -->
     <TextView
         android:id="@+id/txtDisplay"
         android:layout_width="0dp"
@@ -24,23 +22,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Grille des boutons -->
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:layout_marginBottom="236dp"
         android:alignmentMode="alignMargins"
         android:columnCount="4"
-        android:rowCount="5"
+        android:rowCount="6"
         android:useDefaultMargins="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtDisplay">
+        app:layout_constraintStart_toStartOf="parent">
 
-        <!-- Ligne 1 -->
         <Button
             android:id="@+id/btn7"
             style="@style/CalcButton"
@@ -61,7 +56,6 @@
             style="@style/CalcButtonOp"
             android:text="/" />
 
-        <!-- Ligne 2 -->
         <Button
             android:id="@+id/btn4"
             style="@style/CalcButton"
@@ -82,7 +76,6 @@
             style="@style/CalcButtonOp"
             android:text="×" />
 
-        <!-- Ligne 3 -->
         <Button
             android:id="@+id/btn1"
             style="@style/CalcButton"
@@ -103,7 +96,6 @@
             style="@style/CalcButtonOp"
             android:text="−" />
 
-        <!-- Ligne 4 -->
         <Button
             android:id="@+id/btn0"
             style="@style/CalcButton"
@@ -124,17 +116,52 @@
             style="@style/CalcButtonOp"
             android:text="+" />
 
-        <!-- Ligne 5 -->
         <Button
-            android:id="@+id/btnEqual"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_columnSpan="4"
-            android:layout_marginTop="8dp"
-            android:background="#2196F3"
+            android:id="@+id/btnParOuv"
+            style="@style/CalcButtonOp"
+            android:text="("/>
+
+        <Button
+            android:id="@+id/btnParFer"
+            style="@style/CalcButtonOp"
+            android:text=")"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/CalcButtonOp"
+            android:text="B"/>
+
+        <Button
+            android:id="@+id/btnUnaire"
+            style="@style/CalcButtonOp"
+            android:text="+/-"/>
+
+        <Button
+            android:id="@+id/btnPuissance"
+            style="@style/CalcButtonOp"
+            android:text="x^y"/>
+
+        <Button
+            android:id="@+id/btnRacine"
+            style="@style/CalcButtonOp"
+            android:text="√x"/>
+
+        <Button
+            android:id="@+id/btnVirgDec"
+            style="@style/CalcButtonOp"
+            android:text="."/>
+
+        <Button
+            android:id="@+id/buttonEgal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            style="@style/CalcButtonOp"
             android:text="="
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" />
 
     </GridLayout>
 
