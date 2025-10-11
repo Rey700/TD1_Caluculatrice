@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Calculatrice</string>
+    <string name="_0">0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_S">/</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_M">×</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_Sous">−</string>
+    <string name="_Z">0</string>
+    <string name="_V">,</string>
+    <string name="_C">C</string>
+    <string name="_P">+</string>
+    <string name="_ParOuv">(</string>
+    <string name="_ParFer">)</string>
+    <string name="_B">B</string>
+    <string name="_Unaire">+/-</string>
+    <string name="_Puiss">x^y</string>
+    <string name="_Rac">√x</string>
+    <string name="_Dec">.</string>
+    <string name="_Equ">=</string>
+    <string name="_Hist">Historique :</string>
 </resources>

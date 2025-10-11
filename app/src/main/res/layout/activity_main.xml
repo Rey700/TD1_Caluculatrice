@@ -16,11 +16,26 @@
         android:background="#EEEEEE"
         android:gravity="end|center_vertical"
         android:padding="12dp"
-        android:text="0"
+        android:text="@string/_0"
         android:textSize="32sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:text="@string/_Hist"
+        android:textColor="#888888"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/txtDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 
     <GridLayout
         android:id="@+id/gridLayout"
@@ -39,129 +54,127 @@
         <Button
             android:id="@+id/btn7"
             style="@style/CalcButton"
-            android:text="7" />
+            android:text="@string/_7" />
 
         <Button
             android:id="@+id/btn8"
             style="@style/CalcButton"
-            android:text="8" />
+            android:text="@string/_8" />
 
         <Button
             android:id="@+id/btn9"
             style="@style/CalcButton"
-            android:text="9" />
+            android:text="@string/_9" />
 
         <Button
             android:id="@+id/btnDiv"
             style="@style/CalcButtonOp"
-            android:text="/" />
+            android:text="@string/_S" />
 
         <Button
             android:id="@+id/btn4"
             style="@style/CalcButton"
-            android:text="4" />
+            android:text="@string/_4" />
 
         <Button
             android:id="@+id/btn5"
             style="@style/CalcButton"
-            android:text="5" />
+            android:text="@string/_5" />
 
         <Button
             android:id="@+id/btn6"
             style="@style/CalcButton"
-            android:text="6" />
+            android:text="@string/_6" />
 
         <Button
             android:id="@+id/btnMul"
             style="@style/CalcButtonOp"
-            android:text="×" />
+            android:text="@string/_M" />
 
         <Button
             android:id="@+id/btn1"
             style="@style/CalcButton"
-            android:text="1" />
+            android:text="@string/_1" />
 
         <Button
             android:id="@+id/btn2"
             style="@style/CalcButton"
-            android:text="2" />
+            android:text="@string/_2" />
 
         <Button
             android:id="@+id/btn3"
             style="@style/CalcButton"
-            android:text="3" />
+            android:text="@string/_3" />
 
         <Button
             android:id="@+id/btnSub"
             style="@style/CalcButtonOp"
-            android:text="−" />
+            android:text="@string/_Sous" />
 
         <Button
             android:id="@+id/btn0"
             style="@style/CalcButton"
-            android:text="0" />
+            android:text="@string/_Z" />
 
         <Button
             android:id="@+id/btnDot"
             style="@style/CalcButton"
-            android:text="," />
+            android:text="@string/_V" />
 
         <Button
             android:id="@+id/btnClear"
             style="@style/CalcButtonClear"
-            android:text="C" />
+            android:text="@string/_C" />
 
         <Button
             android:id="@+id/btnAdd"
             style="@style/CalcButtonOp"
-            android:text="+" />
+            android:text="@string/_P" />
 
         <Button
             android:id="@+id/btnParOuv"
             style="@style/CalcButtonOp"
-            android:text="("/>
+            android:text="@string/_ParOuv"/>
 
         <Button
             android:id="@+id/btnParFer"
             style="@style/CalcButtonOp"
-            android:text=")"/>
+            android:text="@string/_ParFer"/>
 
         <Button
             android:id="@+id/btnBack"
             style="@style/CalcButtonOp"
-            android:text="B"/>
+            android:text="@string/_B"/>
 
         <Button
             android:id="@+id/btnUnaire"
             style="@style/CalcButtonOp"
-            android:text="+/-"/>
+            android:text="@string/_Unaire"/>
 
         <Button
             android:id="@+id/btnPuissance"
             style="@style/CalcButtonOp"
-            android:text="x^y"/>
+            android:text="@string/_Puiss"/>
 
         <Button
             android:id="@+id/btnRacine"
             style="@style/CalcButtonOp"
-            android:text="√x"/>
+            android:text="@string/_Rac"/>
 
         <Button
             android:id="@+id/btnVirgDec"
             style="@style/CalcButtonOp"
-            android:text="."/>
+            android:text="@string/_Dec"/>
 
         <Button
-            android:id="@+id/buttonEgal"
+            android:id="@+id/btnEqual"
+            style="@style/CalcButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="1"
-            android:layout_rowSpan="1"
-            style="@style/CalcButtonOp"
-            android:text="="
-            android:layout_gravity="fill"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:text="@string/_Equ" />
 
     </GridLayout>
 
